@@ -9,6 +9,7 @@ import java.util.Date;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvDate;
+    public TextView tvGit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         tvDate = (TextView) findViewById(R.id.date);
         tvDate.setText(date.toString());
+        tvGit = (TextView) findViewById(R.id.git);
+        tvGit.setText('workshop vcs');
     }
 }
